@@ -90,20 +90,34 @@ nav a{
     max-width:650px;
     font-size:1.05rem;
 }
-
 .card{
     border:2px solid #2B2B2B;
     border-radius:18px;
-    padding:24px;
+    padding:35px;
     margin:35px 0;
-    background:#FFFBF7;
-    box-shadow:6px 6px 0 rgba(43,43,43,0.08);
+    background:#FFF9F4;
+    box-shadow:6px 6px 0 rgba(0,0,0,.08);
 }
 
 .card h2{
     font-family:'Patrick Hand',cursive;
-    margin-bottom:10px;
+    font-size:2rem;
+    margin-bottom:18px;
 }
+
+.card p,
+.card li{
+    font-size:1.05rem;
+    line-height:1.9;
+}
+
+.card ul{
+    padding-left:25px;
+}
+
+.card li{
+    margin-bottom:12px;
+   }
 
 .button{
     display:inline-block;
