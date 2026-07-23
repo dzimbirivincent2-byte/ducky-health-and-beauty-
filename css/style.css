@@ -119,6 +119,14 @@ nav a{
     margin-bottom:12px;
    }
 
+.scribble{
+    font-family:'Patrick Hand',cursive;
+    font-size:1.1rem;
+    color:#7B4DFF;
+    margin-bottom:12px;
+    transform:rotate(-2deg);
+}
+
 .button{
     display:inline-block;
     margin-top:20px;
