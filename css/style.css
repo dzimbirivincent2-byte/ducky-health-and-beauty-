@@ -1,19 +1,127 @@
-/* Ducky Health & Beauty */
+/* ==================================================
+   DUCKY HEALTH & BEAUTY v1.0
+================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Nunito:wght@400;600;700&display=swap');
 
-body{
-    background:#FFF9F2;
-    color:#2E2E2E;
+*{
     margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#ffffff;
+    color:#2B2B2B;
     font-family:'Nunito',sans-serif;
+    line-height:1.7;
 }
 
-h1,h2,h3,h4{
+.container{
+    width:92%;
+    max-width:900px;
+    margin:auto;
+}
+
+header{
+    padding:25px 0;
+    border-bottom:2px dashed #d9d9d9;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
     font-family:'Patrick Hand',cursive;
+    font-size:2rem;
 }
 
-a{
-    color:#7B3FE4;
+.logo a{
     text-decoration:none;
+    color:#2B2B2B;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#2B2B2B;
+    font-weight:700;
+}
+
+.hero{
+    padding:60px 0 40px;
+}
+
+.hero h1{
+    font-family:'Patrick Hand',cursive;
+    font-size:3rem;
+    line-height:1.1;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:650px;
+    font-size:1.05rem;
+}
+
+.card{
+    border:2px solid #2B2B2B;
+    border-radius:16px;
+    padding:22px;
+    margin:30px 0;
+    background:#fffef8;
+}
+
+.card h2{
+    font-family:'Patrick Hand',cursive;
+    margin-bottom:10px;
+}
+
+.button{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 20px;
+    border:2px solid #2B2B2B;
+    border-radius:12px;
+    color:#2B2B2B;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.button:hover{
+    background:#FFF59D;
+}
+
+footer{
+    margin-top:70px;
+    padding:30px 0;
+    text-align:center;
+    border-top:2px dashed #d9d9d9;
+    font-size:.9rem;
+}
+
+@media(max-width:700px){
+
+nav{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero h1{
+    font-size:2.3rem;
+}
+
 }
