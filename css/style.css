@@ -35,8 +35,17 @@ nav{
 }
 
 .logo{
-    font-family:'Patrick Hand',cursive;
-    font-size:2rem;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.logo img{
+    width:220px;
+    max-width:90%;
+    height:auto;
+    display:block;
+    margin:0 auto;
+
 }
 
 .logo a{
@@ -57,7 +66,9 @@ nav a{
 }
 
 .hero{
-    padding:60px 0 40px;
+    padding:40px 0 60px;
+    text-align:center;
+
 }
 
 .hero h1{
