@@ -212,3 +212,21 @@ nav ul{
 }
 
 }
+
+/* ==========================================
+   WEBSITE CHARACTERS
+========================================== */
+
+.hero-character{
+
+display:block;
+
+width:220px;
+
+max-width:80%;
+
+margin:25px auto;
+
+transform:rotate(-3deg);
+
+}
