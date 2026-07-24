@@ -230,3 +230,21 @@ margin:25px auto;
 transform:rotate(-3deg);
 
 }
+
+/* ==========================================
+   ARTICLE CHARACTER
+========================================== */
+
+.article-character{
+
+display:block;
+
+width:240px;
+
+max-width:80%;
+
+margin:25px auto;
+
+transform:rotate(-2deg);
+
+   }
